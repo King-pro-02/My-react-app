@@ -5,6 +5,7 @@ import Application from "./pages/Register";
 import Home from "./pages/Home";
 import Register from "./pages/Register";
 import Profile from "./pages/Profile";
+import { createBrowserRouter } from "react-router-dom";
 
 
 
@@ -35,11 +36,8 @@ const router = createBrowserRouter([
 export default ()=>{
 
     return(
-<>
- return <RouterProvider router={router} />;
-</>
-
-    )
+ <RouterProvider router={router} />
+    );
 }
  
 

@@ -4,7 +4,7 @@ import { useAuth } from '../provider/AuthProvider';
 const Profile = () => {
   const { auth } = useAuth();
 
-  const idNumber = Math.floor(Math.random * 1000)
+  const idNumber = Math.floor(Math.random() * 1000)
   return (
     <div>
       <h1>Profile</h1>
