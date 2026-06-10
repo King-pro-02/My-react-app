@@ -2,7 +2,25 @@ const categories = ['Technology','sports','health','fitness','academics','food',
 
 const logo = 'BookSite'
 
-const links = ['Home', 'about', 'support']
+const links = [
+    {
+        name:'Home',
+        link: "/"
+    },
+     {
+        name:'Profile',
+        link: "/profile"
+    },
+     {
+        name:'Login',
+        link: "/login"
+    },
+     {
+        name:'Register',
+        link: "/register"
+    },
+
+]
 
 const bookdetails = [
     {img:'https://i1-c.pinimg.com/736x/c3/b4/fc/c3b4fcef2eb8b7e9f75c7a329122c2d2.jpg',

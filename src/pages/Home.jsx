@@ -7,11 +7,10 @@ import React from "react"
 
 export default ()=>{
 
-    const name = prompt('please insert your name ?')
 
     return(
        <div>
-        <h1>WELCOME {name}, to my page</h1>
+        <h1>WELCOME {name ?? "Guest"} , to my page</h1>
        </div>
     )
 }
