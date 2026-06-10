@@ -1,0 +1,49 @@
+.categ_cover{
+width: auto;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-items: center;
+justify-content: center;
+
+
+}
+.categ{
+flex: 1 1 100px;
+min-width: 80px;
+max-width: 120px;
+border-radius: 15px;
+text-align: center;
+padding: 5px;
+
+}
+
+
+
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 2px solid black;
+    justify-content: space-evenly;
+}
+.book_container{
+flex: 1 1 300;
+min-width: 300px;
+max-width: 300px;
+display: flex;
+border-style: solid;
+border: 2px solid black;
+border-radius: 20px;
+overflow: hidden;
+}
+.book_img{
+width: 100px;
+
+}
+.book_text{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}

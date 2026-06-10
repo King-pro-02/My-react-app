@@ -1,0 +1,29 @@
+.h_cover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo h1{
+    margin-top: -20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logo img{
+    width: 100px;
+}
+
+
+
+
+
+
