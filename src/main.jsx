@@ -5,7 +5,6 @@ import App from "./App";
 import "./index.css";
 import { AuthProvider } from "./Provider/AuthProvider.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Application from "./pages/Register.jsx";
 
 
 createRoot(document.getElementById("root")).render(
